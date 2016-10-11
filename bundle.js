@@ -299,7 +299,7 @@ function render(elapsedTime, ctx) {
   if(stick.charging) {
     ctx.strokeStyle = "red";
   } else {
-    ctx.strokeStyle = "darkgrey";
+    ctx.strokeStyle = "blue";
   }
   ctx.stroke();
   ctx.beginPath();
